@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>モダンリンク集</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(135deg, #fdfbfb 0%, #ebedee 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px 20px;
+            margin: 0;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 1000px;
+        }
+        .link-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        .link-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+        }
+        .link-card a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: 700;
+            font-size: 18px;
+            display: inline-block;
+            transition: color 0.2s;
+        }
+        .link-card a:hover {
+            color: #155ab6;
+        }
+    </style>
+</head>
+<body>
+    <h1>モダンリンク集</h1>
+    <div class="link-grid">
+        <div class="link-card"><a href="cydia://url/https://cydia.saurik.com/api/share#?source=https://yzu.moe/dev/" target="_blank">FaceTimeX</a></div>
+    </div>
+</body>
+</html>
